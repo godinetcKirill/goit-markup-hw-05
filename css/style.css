@@ -141,6 +141,7 @@ ul {
         font-size: 16px;
         line-height: 1.5;
         text-decoration: none;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -176,6 +177,7 @@ a.link.current{
     margin-left: auto;
     color: var(--primary-text-color);
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .contact-nav a:hover,
@@ -289,6 +291,7 @@ padding-bottom: 120px;
         border-radius: 50%;
         background-color: var(--accent-color);
         display: flex;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        
     }
 
@@ -297,9 +300,12 @@ padding-bottom: 120px;
         list-style: none;
         justify-content: center;
         gap: 24px;
+        
+        
     }
     .social-link-item{
         fill: #F4F4FD;
+        
         
     }
     .social-list-link:hover,
@@ -349,6 +355,7 @@ color: var(--title-text-color);
         line-height: 1.1;
         text-align: center;
             letter-spacing: 0.02em;
+            
 }
 .team-name{
     margin-bottom: 8px;
@@ -454,6 +461,7 @@ color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.2;
     text-decoration: none;
+    transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
  
@@ -470,6 +478,7 @@ color: var(--title-text-color);
     cursor: pointer;
     align-items: center;
     border: 1px solid transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -546,7 +555,7 @@ padding-bottom: 120px;
     height: 100%;
     justify-content: center;
     align-items: center;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -604,6 +613,7 @@ color: var(--accent-color);
     list-style: none;
     gap: 8px;
     margin-top: 16px;
+    
 }
 .media-list-link {
     display: flex;
@@ -613,6 +623,7 @@ color: var(--accent-color);
     background-color: rgba(255, 255, 255, 0.1);
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .media-list{
     width: 40px;
