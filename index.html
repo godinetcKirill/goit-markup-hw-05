@@ -37,7 +37,7 @@
        
         <section class="hero">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-button">Order service</button>
+            <button type="button" class="hero-button" data-modal-open >Order service</button>
         </section>
        
 
@@ -336,5 +336,16 @@
 </div>
             
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+               <button type="button" class="modal-cloze-btn" data-modal-close>
+                <svg class="close-btn-item" width="8" height="8">
+                    <use href="./image/spritik.svg#icon-clz-btn"></use>
+                </svg>
+               </button>
+            </div>
+        </div>
+
+        <script src="./js/modal.js"></script>
 </body>
 </html>
