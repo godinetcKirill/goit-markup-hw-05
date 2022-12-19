@@ -142,6 +142,8 @@ ul {
         line-height: 1.5;
         text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        
 
 }
 
@@ -192,6 +194,22 @@ a.link.current{
     display: flex;
     list-style: none;
 }
+
+
+
+.site-list-link::after{
+    content: '';
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    bottom:0;
+
+}
+    
+  
 
 
 
@@ -406,10 +424,14 @@ color: var(--title-text-color);
     row-gap: 48px ;
     column-gap: 24px;
     list-style-type: none;
+   
+
 }
 
 .list-li {
      flex-basis: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    
 }
 .list-li:hover,
 .list-li:focus{
@@ -417,6 +439,7 @@ color: var(--title-text-color);
 }
 
 .border{
+    
     
     
     padding: 32px 16px;
